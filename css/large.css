@@ -4,8 +4,7 @@
     nav ul.hide{
         display: block;
     }
-    nav ul{
-    }
+    
     nav ul li{
         display: inline-block;
         justify-content: space-evenly;
