@@ -1,0 +1,90 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+header{
+    text-align: center;
+    background-color:rgb(175, 255, 255);
+    }
+    header img{
+        display: none;
+    }
+    header h1,h2{
+        color: #c001ff;
+        padding:0.8rem 0rem;
+        margin: 0%;
+    }
+    
+nav button{
+    
+    margin:.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #c001ff;
+}
+nav{
+    text-align: center;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ nav ul li a{
+     display: block;
+     padding: .8rem 2%;
+     text-decoration: none;
+     color: #c001ff;
+     border-top:1px solid rgba(0,0,0,0.2);
+ }
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+nav ul.hide{
+    display: none;
+}
+body{
+    background-color: rgb(175, 255, 255);
+} 
+main{
+     text-align: center;
+     background-color: rgb(175, 255, 255);
+ }
+ .contentbox{
+     color: #c001ff;
+     width: 100%;
+     padding: 1rem 0rem;
+     background-color:aqua;
+     border: 1px solid #c001ff;
+     margin: 0.2rem 0;
+ }
+footer{
+    background-color: aqua;
+    padding:1rem 0.3rem;
+    border: 1px solid #c001ff;
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+footer p{
+    
+    margin:0 0.7rem;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+
+
+
